@@ -1,0 +1,23 @@
+.box{
+    height: 350px;
+    width: 500px;
+    border-radius: 90px;
+    float: left;
+    margin: 20px;
+}
+.b1{
+    background-image: url(https://www.pngall.com/wp-content/uploads/2/Sports-Bike.png);
+    background-size: contain;
+    position: fixed;
+    top: 500px;
+    bottom: 10px;
+}
+.b2{
+    background-image: url(https://www.pngall.com/wp-content/uploads/2/Sports-Bike-PNG-Clipart.png);
+    background-size: contain;
+}
+.b3{
+    background-image: url(https://www.pngall.com/wp-content/uploads/6/Gauge-PNG-Clipart.png);
+    background-size: cover;
+
+}

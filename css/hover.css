@@ -1,0 +1,39 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    margin: auto;
+    justify-content: center;
+    margin-top: 300px;
+
+}
+.box:hover{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    transition: all 1s;
+}
+
+h1{
+    background: #e41010;
+    text-align: center;
+    position: relative;
+}
+h1:hover{
+    color: aquamarine;
+    position: absolute;
+}
+h1::after{
+      content: "gfyfyufyufut";
+      height: 50px;
+      width: 50px;
+      border: #4099cc;
+}
+h1::before{
+    content: "dgtyfyuiyg";
+    height: 50px;
+    width: 50px;
+    border: #4099cc;
+}

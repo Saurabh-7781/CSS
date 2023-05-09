@@ -1,0 +1,23 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    background-color: aquamarine;
+    box-shadow: 10px 10px 5px black;
+    margin: auto;
+}
+.box:hover{
+    transform: translate(35px, 50px);
+
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    background-color: aquamarine;
+    box-shadow: 10px 10px 5px black;
+    margin: auto;
+}
+.box2:hover{
+    transform: scale(3 3);
+}

@@ -1,0 +1,25 @@
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 400px;
+    background-image: url(https://thumbs.dreamstime.com/z/mountain-bike-wheel-white-background-48777717.jpg);
+    background-size: cover;
+    margin-left: auto;
+ 
+}
+.box:hover{
+         transform: rotate(360deg);
+         transition: all 1s;
+}
+.box2{
+    height: 300px;
+    width: 300px;
+    border-radius: 400px;
+    background-image: url(https://thumbs.dreamstime.com/z/mountain-bike-wheel-white-background-48777717.jpg);
+ margin-right: auto;
+    background-size: cover;
+}
+.box2:hover{
+         transform: rotate(360deg);
+         transition: all 3s;
+}
